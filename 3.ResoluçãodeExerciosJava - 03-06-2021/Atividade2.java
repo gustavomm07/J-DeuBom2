@@ -30,6 +30,12 @@ public class Atividade2 {
 			else if(C>A && C>B && A>B) {
 				System.out.println("B é: "+B+" A é: "+A+" C é: "+C);
 				}
+			else if(C>=A && C>B && A>B) {
+				System.out.println("B é: "+B+" A é: "+A+" C é: "+C);
+				}
+			else if(B>=A && B>C && A>C) {
+				System.out.println("C é: "+C+" A é: "+A+" B é: "+B);
+				}
 			else {
 				System.out.println("A é: "+A+" B é: "+B+" C é: "+C);
 				}
