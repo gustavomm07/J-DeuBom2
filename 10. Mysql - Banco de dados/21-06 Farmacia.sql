@@ -56,6 +56,8 @@ values ("Aspirina", "50mg", 20.0, 3, 5, 1);
 insert into tb_produto (nome,peso, preco, quantidade,estrelas,fk_categoria)
 values ("Baton", "15mg", 90.0, 1, 3, 1);
 
+select*from tb_personagem where ataque > 50;
+
 SELECT* from  tb_produto
 inner join tb_categoria on tb_categoria.id1 =  tb_produto.fk_categoria
 where  tb_produto.nome Like "%B%" and  tb_produto.preco > 3  and  tb_produto.preco < 60 ;

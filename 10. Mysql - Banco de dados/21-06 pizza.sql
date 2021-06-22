@@ -52,7 +52,7 @@ insert into tb_pizza (sabor, tamanho, preco, quantidade, bordarecheada, fk_categ
 values ("Mussarela", "pequena", "25.0", 20, "não", 3);
 insert into tb_pizza (sabor, tamanho, preco, quantidade, bordarecheada, fk_categoria)
 values ("Pizza da Mama", "grande", "65.0", 1, "não", 5);
-select*from tb_personagem where ataque > 2000;
+select*from tb_personagem where ataque > 45;
 
 SELECT* from tb_pizza
 inner join tb_categoria on tb_categoria.idcategora = tb_pizza.fk_categoria
